@@ -1,0 +1,188 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #030303;
+  color: #FFFFFF;
+}
+
+.heading {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+.login{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 3px;
+}
+._Name{
+  width: 400px;
+  height: 30px;
+  border-radius: 10px;
+}
+.Sign{
+  border-radius: 10px;
+}
+#link{
+  margin-left: 140px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+._Name{
+  color: #FFFFFF;
+}
+.mainhead{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+.req{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 30px;
+  gap: 8px;
+}
+.change1{
+  width: 400px;
+  overflow-wrap: break-word;  
+  word-wrap: break-word; 
+  word-break: break-word;
+}
+#change{
+  margin-left: -150px;
+}
+#change2{
+  margin-top: -5px;
+  margin-left: -40px;
+}
+input,
+select {
+  font-size: 16px;
+  background-color: #030303;
+  border: 1px solid #FFFFFF;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+#yes{
+  margin-top: -29px;
+}
+#No{
+  margin-top: -29px;
+  padding-left: 10px;
+}
+.cust{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 70px;
+  gap: 5px;
+}
+.cust label{
+  margin-top: 5px;
+}
+.custom_amount{
+  width: 230px;
+  margin-left: 40px;
+  color: #FFFFFF;
+  border-radius: 10px;
+  text-align: center;
+}
+.Regular{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+.reglabel{
+  width: 200px;
+  overflow-wrap: break-word;  
+  word-wrap: break-word; 
+  word-break: break-word;
+  margin-left: 80px;
+}
+.reg{
+  width: 40px;
+  color: #FFFFFF;
+  margin-left: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.reginput{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+
+label {
+  display: grid;
+  margin-bottom: 5px;
+}
+
+
+button {
+  background-color: #6741D9;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 1px solid #F0C3F1;
+}
+
+button:active {
+  border: 1px solid #F0C3F1;
+}
+
+.graph {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.bar {
+  background-color: #F0C3F1;
+}
+.Save{
+  display: flex;
+  justify-content: center;
+}
+.Save button{
+  width: 500px;
+  margin-left: 60px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.axis,
+.tick {
+  stroke: #FFFFFF;
+}
+
+.save-button {
+  width: 600px;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .graph {
+    width: 300px;
+  }
+
+  .save-button {
+    width: 300px;
+  }
+}
